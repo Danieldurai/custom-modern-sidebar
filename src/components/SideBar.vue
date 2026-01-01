@@ -3,9 +3,9 @@
     <div class="sidebar-container" :class="{ shrinked: isShrinked }">
       <div class="sidebar-header">
         <div class="header-icon-container">
-          <div class="header-icon"><h4>RF</h4></div>
+          <div class="header-icon"><h4>DF</h4></div>
         </div>
-        <h2 class="header-text shrink-text">Rajan Finance</h2>
+        <h2 class="header-text shrink-text">Daniel Finance</h2>
         <div class="expansion" @click="isShrinked = !isShrinked">
           <ChevronsRight class="expansion-icon"></ChevronsRight>
         </div>
